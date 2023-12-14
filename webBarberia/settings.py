@@ -39,7 +39,7 @@ SECRET_KEY = 'django-insecure-!#^prfw-tu%6iq2-&!vf=nbkypz=$njjkl-4**zt8%u7o%t*pg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['barberstyle.azurewebsites.net']
+ALLOWED_HOSTS = ['barberstyle1.azurewebsites.net']
 
 
 # Application definition
