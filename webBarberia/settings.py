@@ -37,7 +37,7 @@ DIRECTORIO_FIXTURE = BASE_DIR / "fixtures"
 SECRET_KEY = 'django-insecure-!#^prfw-tu%6iq2-&!vf=nbkypz=$njjkl-4**zt8%u7o%t*pg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['barberstyle.azurewebsites.net']
 
@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'webBarberia.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-if modo_desarrollo == True:
+if modo_desarrollo == False:
     try:
         DATABASES = {
             'default': {
