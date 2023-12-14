@@ -1,0 +1,16 @@
+[
+    {
+      "model": "loginRegistroUsuario.TipoUsuario",
+      "pk": 0,
+      "fields": {
+        "nombre_tipo_usuario": "Cliente"
+      }
+    },
+    {
+      "model": "loginRegistroUsuario.TipoUsuario",
+      "pk": 1,
+      "fields": {
+        "nombre_tipo_usuario": "Barbero"
+      }
+    }
+  ]
